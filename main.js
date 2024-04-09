@@ -11,11 +11,11 @@ for (let i=0; i< botoes.length; i++){
         textos[i].classList.add("ativo");
     }
 }
-const tempoObjetivo1 = new Date("2024-02-04T00:00:00");
+const tempoObjetivo1 = new Date("2024-03-04T00:00:00");
 const tempoObjetivo2 = new Date("2024-12-07T00:00:00");
 const tempoObjetivo3 = new Date("2024-12-09T00:00:00");
 const tempoObjetivo4 = new Date("2024-12-011T00:00:00");
-const tempos = [ tempoObjetivo1,tempoObjetivo2,tempoObjetivo3,tempoObjetivo4];
+const tempos = [tempoObjetivo1,tempoObjetivo2,tempoObjetivo3,tempoObjetivo4];
 function atualizaCronometro(){
 for (let i = 0; i < contadores.length; i++) {
 contadores[i].textContent = calculaTempo(tempos[i]);
