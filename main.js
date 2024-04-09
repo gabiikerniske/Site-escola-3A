@@ -19,7 +19,7 @@ const tempo = [ tempoObjetivo1,tempoObjetivo2,tempoObjetivo3,tempoObjetivo4];
 for (let i - 0; i < contadores.length; i++) {}
 contadores[0].textContent = tempoObjetivo1 - tempoAtual;
 function calculaTempo(tempoObjetivo){
-    let tempoAtual =nem Date();
+    let tempoAtual = new Date();
     let tempoFinal = tempoObjetivo - tempoAtual;
     let segundos = Math. floor(tempofinal / 1000);
     let minutos = Math.floor(segundos/ 60);
